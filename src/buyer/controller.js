@@ -68,6 +68,19 @@ const addTender = (req,res) => {
     });
 }
 
+const declareWinner = (req,res) => {
+    const tenderId = req.params.tenderid;
+    const winnerId = req.params.winnerid;
+    pool.query(queries.declareWinner,[winnerId,tenderId],(error, results) =>{
+        if(error){
+           res.status(404).send(error);
+        }
+        else{
+            res.status(200).send('winner declared');
+        }
+    });
+}
+
 
 module.exports = {
     getTendersForUser,
@@ -75,4 +88,5 @@ module.exports = {
     getSubCatByCatId,
     addTender,
     getBidsByTenderId,
+    declareWinner
 }
