@@ -41,7 +41,7 @@ const addRegisterRequest = (req,res) => {
 const processRegistration = (req,res) => {
     const {id,status} = req.body;
 
-    pool.query(queries.processRegistration, [status,id] ,(error, results) =>{
+    pool.query(queries.processRegistration, [status,id], (error, results) =>{
         if(error){
            res.status(404).send(error);
         }
@@ -51,10 +51,25 @@ const processRegistration = (req,res) => {
     });
 }
 
+const login = (req,res) => {
+    const {username,password,usertype} = req.body;
+
+    pool.query(queries.login, [username,password,usertype], (error, results) =>{
+        if(error){
+            console.log(error);
+           res.status(404).send(error);
+        }
+        else{
+            res.status(400).send(results.rows);
+        }
+    });
+}
+
 
 module.exports ={
     getUserNameById,
     addRegisterRequest,
     processRegistration,
-    getUsers
+    getUsers,
+    login
 }
