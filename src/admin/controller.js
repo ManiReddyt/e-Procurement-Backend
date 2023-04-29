@@ -2,6 +2,17 @@ const pool = require('../../dbconnection')
 const queries = require('./queries')
 
 
+const getUsers = (req,res) => {
+    pool.query(queries.getUsers, (error, results) =>{
+        if(error){
+           res.status(404).send(error);
+        }
+        else{
+            res.status(200).json(results.rows);
+        }
+    });
+}
+
 const getUserNameById = (req,res) => {
     const id = req.params.id;
     pool.query(queries.getUserNameById, [id] ,(error, results) =>{
@@ -44,5 +55,6 @@ const processRegistration = (req,res) => {
 module.exports ={
     getUserNameById,
     addRegisterRequest,
-    processRegistration
+    processRegistration,
+    getUsers
 }

@@ -1,0 +1,12 @@
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\bin\Debug\net6.0\EProcurement.Infrastructure.deps.json
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\bin\Debug\net6.0\EProcurement.Infrastructure.dll
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\bin\Debug\net6.0\EProcurement.Infrastructure.pdb
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\obj\Debug\net6.0\EProcurement.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\obj\Debug\net6.0\EProcurement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\obj\Debug\net6.0\EProcurement.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\obj\Debug\net6.0\EProcurement.Infrastructure.AssemblyInfo.cs
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\obj\Debug\net6.0\EProcurement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\obj\Debug\net6.0\EProcurement.Infrastructure.dll
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\obj\Debug\net6.0\refint\EProcurement.Infrastructure.dll
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\obj\Debug\net6.0\EProcurement.Infrastructure.pdb
+C:\Users\nimma\OneDrive\Desktop\EProcurement\EProcurement\EProcurement.Infrastructure\obj\Debug\net6.0\ref\EProcurement.Infrastructure.dll

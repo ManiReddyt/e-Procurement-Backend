@@ -1,0 +1,299 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurment.Services\\EProcurment.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Applications\\EProcurement.Applications.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Applications\\EProcurement.Applications.csproj",
+        "projectName": "EProcurement.Applications",
+        "projectPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Applications\\EProcurement.Applications.csproj",
+        "packagesPath": "C:\\Users\\nimma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Applications\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nimma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Domain\\EProcurement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Domain\\EProcurement.Domain.csproj",
+        "projectName": "EProcurement.Domain",
+        "projectPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Domain\\EProcurement.Domain.csproj",
+        "packagesPath": "C:\\Users\\nimma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nimma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Infrastructure\\EProcurement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Infrastructure\\EProcurement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Infrastructure\\EProcurement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Infrastructure\\EProcurement.Infrastructure.csproj",
+        "projectName": "EProcurement.Infrastructure",
+        "projectPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Infrastructure\\EProcurement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nimma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nimma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurment.Services\\EProcurment.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurment.Services\\EProcurment.Services.csproj",
+        "projectName": "EProcurment.Services",
+        "projectPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurment.Services\\EProcurment.Services.csproj",
+        "packagesPath": "C:\\Users\\nimma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurment.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nimma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Applications\\EProcurement.Applications.csproj": {
+                "projectPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Applications\\EProcurement.Applications.csproj"
+              },
+              "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Domain\\EProcurement.Domain.csproj": {
+                "projectPath": "C:\\Users\\nimma\\OneDrive\\Desktop\\EProcurement\\EProcurement\\EProcurement.Domain\\EProcurement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,8 @@
 const events = require('events');
 const express = require('express')
+const cors = require("cors");
+const bodyParser = require("body-parser");
+
 const buyerRoutes = require('./src/buyer/routes');
 const bidderRoutes = require('./src/bidder/routes');
 const adminRoutes = require('./src/admin/routes');
