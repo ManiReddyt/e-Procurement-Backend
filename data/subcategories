@@ -1,0 +1,64 @@
+const subcategories = ['Raw Materials',
+ 'Office Supplies',
+ 'Electronic Equipment',
+ 'Medical Supplies',
+ 'Furniture',
+ 'Vehicles',
+ 'Construction of buildings',
+ 'Road construction',
+ 'Bridge construction',
+ 'Water supply and sanitation',
+ 'Electrical works',
+ 'Railway infrastructure',
+ 'Consultancy services',
+ 'Legal services',
+ 'IT services',
+ 'Marketing and advertising services',
+ 'Security services',
+ 'Event management services',
+ 'Build-Operate-Transfer (BOT)',
+ 'Build-Own-Operate-Transfer (BOOT)',
+ 'Build-Lease-Transfer (BLT)',
+ 'Operation and Maintenance (O&M)',
+ 'Sale of government equity',
+ 'Strategic sale',
+ 'Privatization of Public Sector Undertakings',
+ 'Arms and ammunition',
+ 'Military vehicles',
+ 'Communication systems',
+ 'Radar and surveillance',
+ 'Aircraft and helicopters',
+ 'Warships and submarines',
+ 'Procurement from Micro, Small, and Medium Enterprises (MSMEs)',
+ 'Government e-Marketplace (GeM) for SMEs',
+ 'Procurement from international suppliers',
+ 'International tendering process',
+ 'Implementation of International competitive bidding',
+ 'Procurement of goods and services for disaster management',
+ 'Disaster relief materials and equipment',
+ 'Emergency response vehicles and equipment',
+ 'Procurement of R&D services',
+ 'R&D funding and grants',
+ 'Procurement of technology and IP',
+ 'Procurement of patents, copyrights, and trademarks',
+ 'Licensing and transfer of IP rights',
+ 'IP protection and enforcement',
+ 'Procurement of patents, copyrights, etc.',
+ 'Procurement of environmentally friendly goods and services',
+ 'Use of sustainable procurement practices',
+ 'Implementation of green initiatives',
+ 'Procurement from socially and economically disadvantaged groups',
+ 'Procurement from women-owned businesses',
+ 'Procurement from start-ups and innovation-driven enterprises',
+ 'sub cat 1.1']
+
+ const subcategory ={}
+ subcategories.forEach((subcat,index) => {
+    subcategory[subcat] = index;
+ });
+
+
+
+ module.exports = {
+    subcategory
+ }
