@@ -11,16 +11,6 @@ const getUsers = (req, res) => {
   });
 };
 
-const getUsers = (req, res) => {
-  pool.query(queries.getUsers, (error, results) => {
-    if (error) {
-      res.status(404).send(error);
-    } else {
-      res.status(200).json(results.rows);
-    }
-  });
-};
-
 const getUserNameById = (req, res) => {
   const id = req.params.id;
   pool.query(queries.getUserNameById, [id], (error, results) => {
@@ -87,7 +77,7 @@ const login = (req, res) => {
         console.log(error);
         res.status(404).send(error);
       } else {
-        res.status(400).send(results.rows);
+        res.status(200).send(results.rows);
       }
     }
   );
